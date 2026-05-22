@@ -1,0 +1,10 @@
+﻿  main.c
+C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.19CZIfElse.JNts\1.19CZIfElse.JNts\main.c(36,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.19CZIfElse.JNts\1.19CZIfElse.JNts\main.c(36,10):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.19CZIfElse.JNts\1.19CZIfElse.JNts\main.c(36,10):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.19CZIfElse.JNts\1.19CZIfElse.JNts\main.c(36,10):
+      this argument is used as a buffer size
+  
+  1.19CZIfElse.JNts.vcxproj -> C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.19CZIfElse.JNts\x64\Debug\1.19CZIfElse.JNts.exe
