@@ -1,0 +1,10 @@
+﻿  main.c
+C:\Users\atind\OneDrive\Desktop\1_AdamCode\1_Oppie1\C\JustNotesFilIInBlank\1.22CZor.JNts\1.22CZor.JNts\main.c(35,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Users\atind\OneDrive\Desktop\1_AdamCode\1_Oppie1\C\JustNotesFilIInBlank\1.22CZor.JNts\1.22CZor.JNts\main.c(35,10):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Users\atind\OneDrive\Desktop\1_AdamCode\1_Oppie1\C\JustNotesFilIInBlank\1.22CZor.JNts\1.22CZor.JNts\main.c(35,10):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Users\atind\OneDrive\Desktop\1_AdamCode\1_Oppie1\C\JustNotesFilIInBlank\1.22CZor.JNts\1.22CZor.JNts\main.c(35,10):
+      this argument is used as a buffer size
+  
+  1.22CZor.JNts.vcxproj -> C:\Users\atind\OneDrive\Desktop\1_AdamCode\1_Oppie1\C\JustNotesFilIInBlank\1.22CZor.JNts\x64\Debug\1.22CZor.JNts.exe
