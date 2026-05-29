@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.38CZRandoNumGenWthRand.JNts", "1.38CZRandoNumGenWthRand.JNts\1.38CZRandoNumGenWthRand.JNts.vcxproj", "{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Debug|x64.ActiveCfg = Debug|x64
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Debug|x64.Build.0 = Debug|x64
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Debug|x86.Build.0 = Debug|Win32
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Release|x64.ActiveCfg = Release|x64
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Release|x64.Build.0 = Release|x64
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Release|x86.ActiveCfg = Release|Win32
+		{F928010C-4BE0-4A75-A83F-E8D5C7BBD55F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5990830A-0012-4B95-A855-F5108CE0C65F}
+	EndGlobalSection
+EndGlobal
