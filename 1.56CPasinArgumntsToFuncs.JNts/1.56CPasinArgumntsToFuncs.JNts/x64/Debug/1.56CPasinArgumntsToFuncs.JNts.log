@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.56CPasinArgumntsToFuncs.JNts\1.56CPasinArgumntsToFuncs.JNts\main.c(46,19): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.56CPasinArgumntsToFuncs.JNts\1.56CPasinArgumntsToFuncs.JNts\main.c(64,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  1.56CPasinArgumntsToFuncs.JNts.vcxproj -> C:\Users\atind\OneDrive\Desktop\1_AdamCode-AlppaCentauri_O\1.PracticeWithAI\Oppie2C\3.0Oppie.JustNotes\1.56CPasinArgumntsToFuncs.JNts\x64\Debug\1.56CPasinArgumntsToFuncs.JNts.exe
