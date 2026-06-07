@@ -12,6 +12,5 @@
 //The header file runs before your main file. It contains variables and often 
 //function prototypes that main and .c files use. They all work together.
 //Define 3 constants one for dog name, dog age and cat name.
-#define DOGNAME "Potato"
-#define DOGAGE	28
-#define CATNAME "Tom"
+//The format after define is uppercase discriptive names. Here dog name, dog age and cat name. 
+//Remeber to use " " for strings such as name. For number just type number no data type in header necessary here.
