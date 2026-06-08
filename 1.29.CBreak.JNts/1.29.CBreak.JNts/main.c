@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-
-
 int main() {
 
 	//Declare 3 int variables the first two uninitialized. a/counter variable for for loop, 
@@ -13,9 +11,6 @@ int main() {
 	//keep that in mind when designing loop boundaries. ex. Use either less than or
 	//equal to sign or add one to the maxAmount to cover all the numbers.
 	//Code:
-	int a;
-	int howMany;
-	int maxAmount = 10;
 
 	//Prompt user asking how many times do they want loop to loop (up to 10)
 	//CODE:
@@ -25,7 +20,6 @@ int main() {
 	//specifier. Leave a blank before to clear the buffer of garbage data. Then use
 	//the memory address of howMany as the storage for the input.
 	//CODE:
-	scanf_s(" %d", &howMany);
 
 	//The for loop initializes a to 1, then as long as a <= maxAmount(10),incrementing
 	//a by 1 each time.
@@ -42,18 +36,14 @@ int main() {
 	//a against the maxAmount to see if it is less than or equal to 10. Then increment
 	//a by 1 each iteration.
 	//CODE:
-	for (a = 1; a <= maxAmount; a++) {
-
+	
 		//print the current value of a on its own line each iteration.
 		//CODE:
-		printf("%d\n", a);
 
 		//Check whether a has reached the user-specified limit using a if statement.
 		//set a == howMany. When true, break exits the loop immediately.
 		//CODE:
-		if (a == howMany) {
+	
 			//Use break statement to stop the loop right here rather than going to maxAmount
 			//CODE:
-		}
-	}
 }
