@@ -10,7 +10,6 @@ int main() {
 	//letter grade between A and F.
 	//Declare a char variable named grade and initialize it to 'B'
 	//CODE:
-	char grade = 'B';
 
 	//The switch statement evaluates the variable 'grade'
 	//Because grade is set to 'B', this is effectively switch('B')
@@ -24,7 +23,7 @@ int main() {
 	//but it does prevent the program from going through the rest of code unnecessarily.
 	//Use a switch statement with the parameter grade to do this comparing.
 	//CODE:
-	switch (grade) {
+
 		//Each case uses a colon ":" to mark the code that runs when it matches. 
 		//The break: statement exits the switch immediately after a match is found. Preventing
 		//the program from "falling through" and executing the remaining cases. In this example 'B'
@@ -36,26 +35,17 @@ int main() {
 		//value/keystroke along with a sentence telling them thy did that.
 		//Start with case 'A' and then move until you reach the default.
 		//CODE:
-	case 'A':printf("You got an A");
-		break;
 //CODE:
-	case 'B':printf("You got a B");
-		break;
+	
 //CODE:
-	case 'C':printf("You got a C");
-		break;
+
 //CODE:
-	case 'D':printf("You got a D");
-		break;
+
 	//CODE:	
-	case 'F': printf("You got a F");
-		break;
 
 	//The default case acts as a catch-all. If the value of grade doesn't match any of the
 		//cases above, this message will be displayed to screen.
 	//Make one using the same : logic we used in the cases (remember from ternary op that : do that...
 	//CODE:
-	default:printf("You have pressed an incorrect key/letter/grade");
-	}
 
 }
