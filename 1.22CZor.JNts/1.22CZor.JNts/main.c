@@ -19,7 +19,6 @@ int main() {
 	//previous memory usage, commonly referred to as a "garbage value", It will be 
 	//written when the user inputs data.
 	//CODE:
-	char answer;
 
 	//Prompt the user a y/n type question like do they like bagels or something.
 	//CODE:
@@ -32,17 +31,13 @@ int main() {
 	//any whitespace or leftover characters in the input buffer before reading, preventing
 	//accidental garbage values from being captured.
 	//CODE:
-	scanf_s(" %c", &answer);
 
 	//Check if the user entered either a 'y' or a 'n' using the OR || operator.
 	//The if block runs as long as at least one of the two conditions is true.
 	//Use an if condition to test in the same fashion as you did the last tutorial((y)OR(n))
 	//If either are true have the if block execute that they entered either a y or n
 	//CODE:
-	if ((answer == 'y') || (answer == 'n')) {
-	//CODE:
-		printf("Good job, you entered input correctly either a y or n\n");
-	
+		
 		//Now that we know they have entered in the correct information we can use
 		//a NESTED if else statement to figure out which they chose. We can use two
 		//else statements the second being a catch all separate from the nested ones
@@ -54,21 +49,13 @@ int main() {
 		//So first use an if to test if the user entered (stored in answer variable) a y
 		//Then print to screen that they like bagels.
 		//CODE:
-		if (answer == 'y') {
+	
 			//CODE:
-			printf("You like bagels");
-		}
-
+			
 		//Now use an else statement to capture if the person selected n and 
 		//did not like bagels. NOTICE, else just captures the remainder so no need for if(a=n)
 		//Shorter, cleaner... Then print that they do not like bagels to the screen.
 		//CODE:
-		else {
-		//CODE:
-			printf("\nYou do not like bagels\n");
-		}
-
-	}
 	
 	printf("\n\n-----------------------------\n");
 	//Just instructions. Do not delete.
@@ -84,20 +71,11 @@ int main() {
 	//execute the print codeblock which could say 5 may not be greater than 90 but 
 	//10 DOES equal 10. 
 	//CODE:
-	if ((5 > 90) || (10 == 9)) {
 
 	//CODE:
-	printf("\n5 may not be greater than 90 but 10 DOES equal 10 so or condition is true\n");
 
-	}
 	//Now use an else statement that would catch all/confirm that both statements are false
 	//and prints a message declaring that to the screen.
 	//CODE:
-	else {
-	//CODE:
-	printf("Both conditions are false hence this message.");
-
-	}
-
-
+	
 }
