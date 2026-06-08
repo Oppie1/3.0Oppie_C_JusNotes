@@ -12,7 +12,6 @@ int main() {
 	//The result (1) is stored back into the same variable, replacing the old value. Write expression
 	//That assigns the pageView (on right hand side) with that total (which is 0) + 1
 	//CODE:
-	pageViews = pageViews + 1;
 
 	//From this point forward, pageView hold the value of 1 - unless it is changed again.
 	//Use/call printf() function with a sentence and access specifier to display the page views to screen.
