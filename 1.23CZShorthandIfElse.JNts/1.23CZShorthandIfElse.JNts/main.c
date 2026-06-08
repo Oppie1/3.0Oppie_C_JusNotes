@@ -16,7 +16,6 @@ int main() {
 	//that limit will be cut off. 
 	//Declare an uninitialized character array that has 20 elements
 	//CODE:
-	char lastName[20];
 
 	//Prompt user to enter their last name.
 	//CODE:
@@ -31,7 +30,6 @@ int main() {
 	//specifier for a string %s, the last name and then the sizeof() with the lastName
 	//variable as its parameter. So the function scanf_s() three parameters.
 	//CODE:
-	scanf_s(" %s", lastName, sizeof(lastName));
 
 	//This is a ternary operator - a compact way of writing an if/else on one line.
 	//(condition) ? run_if_true : run_if_false.
@@ -43,7 +41,4 @@ int main() {
 	//starts with A-M (Use <M) and logic above and if so ? use printf() to print 
 	//"Blue Team" to the screen and if not (else :)  printf("Red Team" to the screen.
 	//CODE:
-	(lastName[0] < 'M') ? printf("Blue Team\n") : printf("Red Team\n");
-
-
 }
