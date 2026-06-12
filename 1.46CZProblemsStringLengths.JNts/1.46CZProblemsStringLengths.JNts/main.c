@@ -6,7 +6,7 @@ int main() {
 	//Declare a char array capable of holding 20 characters (elements).
 	//CODE:
 
-	//A pointer to an array doesnt need the operator because an array's name already represents its 
+	//A pointer to an array doesnt need the& operator because an array's name already represents its 
 	//memory address - unlike a regular variable.
 	//Declare a  char pointer named pMovie initialize it to the movie array.
 	//CODE:
